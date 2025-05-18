@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking</title>
+  <link rel="stylesheet" href="assets/style3.css">
+  <link rel="stylesheet" href="assets/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo"> ✈️ SYRIAN AIRLINES</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="offers.html">Offers</a>
+      <a href="Book.html">Booking</a>
+      <a href="destination.html">Destination</a>
+      <a href="Contact-Us.html">Contact Us</a>
+    </div>
+  </nav>
+<section class="hero">
+  <div class="overlay">
+    <div class="booking-box">
+      <h2>Book your trip now</h2>
+      <form id="bookingForm">
+        <input type="text"  id="name" placeholder="full name" required>
+        <input type="email" id="email" placeholder="e-mail" required>
+        <input type="tel" id="phone" placeholder="phone number " required>
+        <input type="date" id="travelDate" placeholder="Booking date" required>
+        <select required id="people">
+          <option value="" disabled selected>Number of people</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4+</option>
+        </select>
+        <textarea  id="notes" placeholder="Additional notes " rows="3"></textarea>
+        <button type="submit">Book now</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="booking-features">
+  <h2>Advantages of booking with us</h2>
+  <div class="features-container">
+    <div class="feature-box">
+      <i class="fa-solid fa-check-circle"></i>
+      <h4>Instant confirmation</h4>
+      <p>Your reservation will be confirmed within moments via email or SMS.</p>
+    </div>
+    <div class="feature-box">
+      <i class="fa-solid fa-tags"></i>
+      <h4>Competitive prices</h4>
+      <p>We offer you the best prices and special seasonal offers.</p>
+    </div>
+    <div class="feature-box">
+      <i class="fa-solid fa-headset"></i>
+      <h4>24/7 support</h4>
+      <p>Our team is ready to assist you at any time, before or after booking.</p>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-container">
+      <!-- قسم الشعار والوصف -->
+      <div class="footer-logo">
+          <h2>✈️ Syrian Airlines</h2>
+          <p>We travel with you anywhere in the world safely and comfortably.</p>
+      </div>
+
+      <!-- روابط التنقل -->
+      <div class="footer-links">
+          <h3>Quick links</h3>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="offers.html">Offers</a></li>
+              <li><a href="Book.html">Booking</a></li>
+              <li><a href="destination.html">Destination</a></li>
+              <li><a href="Contact-Us.html">Contact Us</a></li>
+          </ul>
+      </div>
+
+      <!-- قسم وسائل التواصل الاجتماعي -->
+      <div class="footer-social">
+          <h3>Follow us</h3>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+  </div>
+
+  <div class="footer-bottom">
+      <p>© 2025 All rights reserved | Syrian Airlines</p>
+  </div>
+</footer>
+     <script src="assets/script3.js"></script>
+
+</body>
+</html>

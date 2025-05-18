@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="assets/style5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">✈️ SYRIAN AIRLINES</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="Book.html">Booking</a></li>
+                <li><a href="destination.html">destination</a></li>
+                <li><a href="Contact-Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please fill out the form below:
+        </p>
+
+        <form action="#" method="post" id="contactForm" onsubmit="showMessage(); return false;">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+    
+          <button type="submit">Send Message</button>
+          <p id="success-msg" style="display:none; color:green; margin-top:10px;">Your message has been sent successfully!</p>
+        </form>
+      </section>
+      <div class="contact-details">
+        <h3>Get in Touch</h3>
+        <p><strong>Phone:</strong> +963 11 123 4567</p>
+        <p><strong>Email:</strong> info@syrianairlines.com</p>
+        <p><strong>Address:</strong> Damascus International Airport, Syria</p>
+        <p><strong>Working Hours:</strong> Sunday - Thursday, 9:00 AM - 5:00 PM</p>
+      </div>
+      
+    <footer>
+        <div class="footer-container">
+            <!-- قسم الشعار والوصف -->
+            <div class="footer-logo">
+                <h2>✈️ Syrian Airlines</h2>
+                <p>We travel with you anywhere in the world safely and comfortably.</p>
+            </div>
+    
+            <!-- روابط التنقل -->
+            <div class="footer-links">
+                <h3>Quick links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="Book.html">Booking</a></li>
+                    <li><a href="destination.html">Destination</a></li>
+                    <li><a href="Contact-Us.html">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <!-- قسم وسائل التواصل الاجتماعي -->
+            <div class="footer-social">
+                <h3>Follow us</h3>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© 2025 All rights reserved | Syrian Airlines</p>
+        </div>
+    </footer>
+
+    <script src="assets/script5.js"></script>
+    
+</body>
+</html>
